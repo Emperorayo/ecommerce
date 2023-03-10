@@ -202,3 +202,55 @@ img.img4{
     margin-bottom: 2px;
 
 }
+.add-to-cart img:hover{
+transform: skew(0.5);
+}
+.info{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+}
+.quantity-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color:rgb(218, 214, 214);
+    border: none;
+    cursor: pointer;
+    padding: 20px 50px;
+   
+  }
+  
+  .minus-btn {
+    border-radius: 5px 0 0 5px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bolder;
+  }
+  
+  .plus-btn {
+    border-radius: 0 5px 5px 0;
+    padding: 20px 50px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bolder;
+  }
+  #quantity {
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(218, 214, 214);
+    border: none;
+    margin: 0;
+    padding-top: 9px ;
+    text-align: center;
+
+  }
